@@ -1,5 +1,5 @@
 # AFCollections
-AFCollections is a set of modules that communicate together to replicate and grow upon the default JavaScript structures.
+A collection of generic structures written in TypeScript.
 
 ## Included Structures 
 | Class | Description |

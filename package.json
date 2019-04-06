@@ -1,7 +1,7 @@
 {
   "name": "af-collections",
-  "version": "1.0.2",
-  "description": "A set of useful typesafe collections.",
+  "version": "1.0.4",
+  "description": "A collection of generic structures written in TypeScript.",
   "main": "build/index.js",
   "types": "lib",
   "scripts": {
@@ -12,11 +12,22 @@
     "url": "git+https://github.com/elijahjcobb/af-collections.git"
   },
   "keywords": [
-    "collection",
-    "array",
     "map",
-    "linked",
-    "list"
+    "list",
+    "array",
+    "set",
+    "stack",
+    "queue",
+    "dictionary",
+    "typescript",
+    "type",
+    "generic",
+    "enum",
+    "csv",
+    "iterator",
+    "promise",
+    "async",
+    "helper"
   ],
   "author": "Elijah Cobb",
   "license": "ISC",
