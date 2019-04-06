@@ -105,6 +105,10 @@ export declare class AFArrayList<T> extends AFObject implements AFArrayable<T> {
      */
     remove(index: number): void;
     /**
+     * Remove all values from the instance.
+     */
+    removeAll(): void;
+    /**
      * Remove a value.
      * @param {T} value The value to be removed.
      */

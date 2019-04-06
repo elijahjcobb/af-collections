@@ -5,4 +5,3 @@
  * https://elijahcobb.com
  *
  */
-export {};

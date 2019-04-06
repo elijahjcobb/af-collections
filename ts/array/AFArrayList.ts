@@ -194,6 +194,15 @@ export class AFArrayList<T> extends AFObject implements AFArrayable<T> {
 	}
 
 	/**
+	 * Remove all values from the instance.
+	 */
+	public removeAll(): void {
+
+		this.array = [];
+
+	}
+
+	/**
 	 * Remove a value.
 	 * @param {T} value The value to be removed.
 	 */

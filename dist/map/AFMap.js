@@ -188,6 +188,12 @@ class AFMap extends AFObject_1.AFObject {
         this.map.delete(key);
     }
     /**
+     * Remove all internal data from the instance.
+     */
+    removeAll() {
+        this.map = new Map();
+    }
+    /**
      * Remove the key and value for the specified value.
      * @param {V} value The value of the key value pair to be removed.
      */

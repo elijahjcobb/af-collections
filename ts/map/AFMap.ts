@@ -247,6 +247,15 @@ export class AFMap<K, V> extends AFObject implements AFMappable<K, V> {
 	}
 
 	/**
+	 * Remove all internal data from the instance.
+	 */
+	public removeAll(): void {
+
+		this.map = new Map<K, V>();
+
+	}
+
+	/**
 	 * Remove the key and value for the specified value.
 	 * @param {V} value The value of the key value pair to be removed.
 	 */

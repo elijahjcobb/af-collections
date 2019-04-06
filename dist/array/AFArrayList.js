@@ -152,6 +152,12 @@ class AFArrayList extends AFObject_1.AFObject {
         this.array.splice(index, 1);
     }
     /**
+     * Remove all values from the instance.
+     */
+    removeAll() {
+        this.array = [];
+    }
+    /**
      * Remove a value.
      * @param {T} value The value to be removed.
      */

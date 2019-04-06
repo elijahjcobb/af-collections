@@ -1,6 +1,6 @@
 {
   "name": "af-collections",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "A collection of generic structures written in TypeScript.",
   "main": "dist/index",
   "types": "dist/index",

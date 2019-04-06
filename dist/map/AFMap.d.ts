@@ -128,6 +128,10 @@ export declare class AFMap<K, V> extends AFObject implements AFMappable<K, V> {
      */
     remove(key: K): void;
     /**
+     * Remove all internal data from the instance.
+     */
+    removeAll(): void;
+    /**
      * Remove the key and value for the specified value.
      * @param {V} value The value of the key value pair to be removed.
      */
