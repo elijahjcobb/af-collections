@@ -8,6 +8,7 @@
 
 import { AFArrayList } from "./array/AFArrayList";
 import { AFArray } from "./array/AFArray";
+import { AFErrorOriginType, AFErrorStack, AFErrorType } from "af-error";
 
 /**
  * A generic implementation of an iterator similar to a Java iterator.
@@ -42,7 +43,7 @@ export class AFIterator<V> {
 
 		let value: V = this.array.get(this.index);
 		this.index ++;
-		if (value === undefined) new Error("Iterator value is undefined. Check 'hastNext()' before calling 'next()'.");
+		if (value === undefined) throw AFErrorStack.newWithMessageAndType(AFErrorOriginType.BackEnd, AFErrorType.NullOrUndefined, Error("Iterator value is undefined. Check 'hastNext()' before calling 'next()'."));
 		return value;
 
 	}

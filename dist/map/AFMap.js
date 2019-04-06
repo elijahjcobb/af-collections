@@ -19,6 +19,7 @@ const AFObject_1 = require("../AFObject");
 const AFArray_1 = require("../array/AFArray");
 const AFDictionary_1 = require("./AFDictionary");
 const AFIterator_1 = require("../AFIterator");
+const af_error_1 = require("af-error");
 /**
  * An implementation of a JSON object that uses generics.
  */
@@ -138,7 +139,7 @@ class AFMap extends AFObject_1.AFObject {
         let json = {};
         this.forEach((key, value) => {
             if (typeof key !== "string")
-                throw new Error(`Key '${key}' is not a string. Native JavaScript objects must have a string for their keys.`);
+                throw af_error_1.AFErrorStack.newWithMessageAndType(af_error_1.AFErrorOriginType.BackEnd, af_error_1.AFErrorType.ParameterIncorrectFormat, Error(`Key '${key}' is not a string. Native JavaScript objects must have a string for their keys.`));
             json[key] = value;
         });
         return json;
@@ -201,7 +202,7 @@ class AFMap extends AFObject_1.AFObject {
      */
     static initWithKeysAndValues(keys, values) {
         if (keys.length !== values.length)
-            throw new Error(`The number of keys does not equal the number of values (${keys.length} !== ${values.length}).`);
+            throw af_error_1.AFErrorStack.newWithMessageAndType(af_error_1.AFErrorOriginType.BackEnd, af_error_1.AFErrorType.InternalUnHandled, new Error(`The number of keys does not equal the number of values (${keys.length} !== ${values.length}).`));
         let map = new AFMap();
         for (let i = 0; i < keys.length; i++) {
             let key = keys[i];
@@ -218,7 +219,7 @@ class AFMap extends AFObject_1.AFObject {
      */
     static initWithKeyArrayAndValueArray(keys, values) {
         if (keys.size() !== values.size())
-            throw new Error(`The number of keys does not equal the number of values (${keys.size()} !== ${values.size()}).`);
+            throw af_error_1.AFErrorStack.newWithMessageAndType(af_error_1.AFErrorOriginType.BackEnd, af_error_1.AFErrorType.InternalUnHandled, new Error(`The number of keys does not equal the number of values (${keys.size()} !== ${values.size()}).`));
         let map = new AFMap();
         for (let i = 0; i < keys.size(); i++) {
             let key = keys.get(i);

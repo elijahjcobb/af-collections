@@ -11,6 +11,7 @@ import { AFMappable } from "./AFMappable";
 import { AFArray } from "../array/AFArray";
 import { AFMap } from "./AFMap";
 import { AFIterator } from "../AFIterator";
+import { AFErrorOriginType, AFErrorStack, AFErrorType } from "af-error";
 
 /**
  * A immutable generic implementation of a native javascript object.
@@ -175,7 +176,7 @@ export class AFDictionary<K, V> extends AFObject implements AFMappable<K, V> {
 
 		this.forEach((key: K, value: V) => {
 
-			if (typeof key !== "string") throw new Error(`Key '${key}' is not a string. Native JavaScript objects must have a string for their keys.`);
+			if (typeof key !== "string") throw AFErrorStack.newWithMessageAndType(AFErrorOriginType.BackEnd, AFErrorType.ParameterIncorrectFormat,Error(`Key '${key}' is not a string. Native JavaScript objects must have a string for their keys.`));
 			json[key as string] = value;
 
 		});
@@ -232,7 +233,7 @@ export class AFDictionary<K, V> extends AFObject implements AFMappable<K, V> {
 	 */
 	public static initWithKeysAndValues<K, V>(keys: K[], values:V[]): AFDictionary<K, V> {
 
-		if (keys.length !== values.length) throw new Error(`The number of keys does not equal the number of values (${keys.length} !== ${values.length}).`);
+		if (keys.length !== values.length) throw AFErrorStack.newWithMessageAndType(AFErrorOriginType.BackEnd, AFErrorType.InternalUnHandled,new Error(`The number of keys does not equal the number of values (${keys.length} !== ${values.length}).`));
 
 		let afDictionary: AFDictionary<K, V> = new AFDictionary<K, V>();
 		let map: Map<K, V> = new Map<K, V>();
@@ -260,7 +261,7 @@ export class AFDictionary<K, V> extends AFObject implements AFMappable<K, V> {
 	 */
 	public static initWithKeyArrayAndValueArray<K, V>(keys: AFArray<K>, values: AFArray<V>): AFDictionary<K, V> {
 
-		if (keys.size() !== values.size()) throw new Error(`The number of keys does not equal the number of values (${keys.size()} !== ${values.size()}).`);
+		if (keys.size() !== values.size()) throw AFErrorStack.newWithMessageAndType(AFErrorOriginType.BackEnd, AFErrorType.InternalUnHandled,new Error(`The number of keys does not equal the number of values (${keys.size()} !== ${values.size()}).`));
 
 		let afDictionary: AFDictionary<K, V> = new AFDictionary<K, V>();
 		let map: Map<K, V> = new Map<K, V>();

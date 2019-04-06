@@ -1,6 +1,6 @@
 {
   "name": "af-collections",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A collection of generic structures written in TypeScript.",
   "main": "dist/index",
   "types": "dist/index",
@@ -42,14 +42,13 @@
   "dependencies": {
     "@types/node": "^11.13.0",
     "tslint": "^5.15.0",
-    "typescript": "^3.4.2"
+    "typescript": "^3.4.2",
+    "af-error": "*"
   },
   "devDependencies": {
     "@types/node": "^11.13.0",
-    "typescript": "^3.4.2"
-  },
-  "directories": {
-    "lib": "lib"
+    "typescript": "^3.4.2",
+    "af-error": "*"
   },
   "files": [
     "dist"
