@@ -122,9 +122,9 @@ export declare class AFArrayList<T> extends AFObject implements AFArrayable<T> {
      */
     static initFromNativeArray<T>(nativeArray: T[]): AFArrayList<T>;
     /**
-     * Create a new AFArray from a AFArrayList.
-     * @param {AFArray<T>} array The AFArrayList whose values should be added to this instance.
-     * @return {AFArrayList<T>} A new AFArray instance.
+     * Create a new AFArrayList from a AFArray.
+     * @param {AFArray<T>} array The AFArray whose values should be added to this instance.
+     * @return {AFArrayList<T>} A new AFArrayList instance.
      */
     static initFromArray<T>(array: AFArray<T>): AFArrayList<T>;
 }

@@ -8,4 +8,12 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 const AFCollections = require("./index");
-let map = new AFCollections.Map();
+let array;
+let arrayList;
+let dictionary;
+let map;
+let csv;
+let iterator;
+let set;
+let stack;
+AFCollections.Enum.convertEnumToArray(null);

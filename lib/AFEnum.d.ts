@@ -5,8 +5,8 @@
  * https://elijahcobb.com
  *
  */
-import { AFArrayList } from "./AFArrayList";
-import { AFArray } from "./AFArray";
+import { AFArrayList } from "./array/AFArrayList";
+import { AFArray } from "./array/AFArray";
 export declare class AFEnum {
     /**
      * Convert an enum to a string array.
