@@ -1,11 +1,15 @@
 {
   "name": "af-collections",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A collection of generic structures written in TypeScript.",
-  "main": "build/index.js",
-  "types": "lib",
+  "main": "dist/index",
+  "types": "dist/index",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run compile",
+    "compile": "npm run clean && tsc -p .",
+    "watch": "tsc -w -p .",
+    "clean": "rm -rf dist"
   },
   "repository": {
     "type": "git",
@@ -29,8 +33,8 @@
     "async",
     "helper"
   ],
-  "author": "Elijah Cobb",
-  "license": "ISC",
+  "author": "Elijah Cobb <elijah@elijahcobb.com> (https://elijahcobb.com/)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/elijahjcobb/af-collections/issues"
   },
@@ -40,8 +44,14 @@
     "tslint": "^5.15.0",
     "typescript": "^3.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^11.13.0",
+    "typescript": "^3.4.2"
+  },
   "directories": {
     "lib": "lib"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }

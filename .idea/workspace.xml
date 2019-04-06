@@ -2,7 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cae3f1d7-1ee3-4121-82cc-156d06b27d4e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFArray.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFArray.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFArrayList.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFArrayList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFArrayList.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFArrayable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFBinarySearchTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFBinarySearchTree.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFCSV.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFCSV.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFCSV.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFCSVTypes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFCSVTypes.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFDictionary.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFDictionary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFDictionary.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFEnum.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFEnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFEnum.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFEquality.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFEquality.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFIterator.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFIterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFIterator.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFLockable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFLockable.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFMap.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFMap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFMappable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFObject.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFObject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFObject.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFQueue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFQueue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFQueue.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFSet.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFSet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFSet.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFStack.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFStack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/AFStack.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/array/AFArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/array/AFArrayList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/array/AFArrayable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/map/AFDictionary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/map/AFMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/map/AFMappable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AFCSV.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AFEnum.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AFIterator.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AFObject.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AFQueue.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AFSet.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AFStack.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/array/AFArray.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/array/AFArrayList.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/array/AFArrayable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/map/AFDictionary.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/map/AFMap.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/map/AFMappable.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/test.d.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="217">
+              <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -53,7 +125,6 @@
         <option value="$PROJECT_DIR$/ts/AFCSVTypes.ts" />
         <option value="$PROJECT_DIR$/ts/index.ts" />
         <option value="$PROJECT_DIR$/lib/AFArray.d.ts" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/ts/AFArrayable.ts" />
         <option value="$PROJECT_DIR$/ts/AFCSV.ts" />
         <option value="$PROJECT_DIR$/ts/AFIterator.ts" />
@@ -70,6 +141,7 @@
         <option value="$PROJECT_DIR$/ts/AFSet.ts" />
         <option value="$PROJECT_DIR$/ts/test.ts" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -89,6 +161,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="af-collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="af-collections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="af-collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="af-collections" type="462c0819:PsiDirectoryNode" />
+              <item name="ts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="af-collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="af-collections" type="462c0819:PsiDirectoryNode" />
+              <item name="ts" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="af-collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="af-collections" type="462c0819:PsiDirectoryNode" />
+              <item name="ts" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'TS'; set:file[af-collections]:ts//*; class com.intellij.psi.search.scope.packageSet.NamedScope">
           <expand>
@@ -112,22 +212,6 @@
               <item name="~/Dropbox/Projects/git/af-collections" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="ts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="map" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="af-collections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="af-collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="af-collections" type="b2602c69:ProjectViewProjectNode" />
-              <item name="af-collections" type="462c0819:PsiDirectoryNode" />
-              <item name="ts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,12 +278,13 @@
       <option name="presentableId" value="Default" />
       <updated>1554514024552</updated>
       <workItem from="1554514025720" duration="2101000" />
-      <workItem from="1554517902508" duration="10529000" />
+      <workItem from="1554517902508" duration="10722000" />
+      <workItem from="1554531078987" duration="724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12630000" />
+    <option name="totallyTimeSpent" value="13547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -214,7 +299,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -226,9 +311,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="TypeScript" order="9" visible="true" weight="0.32857144" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32857144" />
       <window_info anchor="bottom" id="Statistic" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35204083" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31734693" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -270,50 +355,8 @@
     <entry file="file://$PROJECT_DIR$/ts/AFCSVTypes.ts" />
     <entry file="file://$PROJECT_DIR$/ts/AFEquality.ts" />
     <entry file="file://$PROJECT_DIR$/tds/AFArray.d.ts" />
-    <entry file="file://$PROJECT_DIR$/lib/AFArrayList.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#80#118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/AFArray.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts/array/AFArrayable.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding>
-            <element signature="e#80#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts/array/AFArray.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
-          <folding>
-            <element signature="e#81#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/AFArrayList.d.ts" />
+    <entry file="file://$PROJECT_DIR$/lib/AFArray.d.ts" />
     <entry file="file://$PROJECT_DIR$/ts/map/AFDictionary.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -386,9 +429,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html" />
     <entry file="file://$PROJECT_DIR$/ts/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -403,16 +444,6 @@
           <folding>
             <element signature="e#81#119#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="630">
-            <caret line="42" column="153" selection-start-line="42" selection-start-column="153" selection-end-line="42" selection-end-column="153" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -433,10 +464,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts/array/AFArrayable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#80#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts/array/AFArray.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
+          <folding>
+            <element signature="e#81#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="217">
+          <caret line="35" column="72" selection-start-line="35" selection-start-column="72" selection-end-line="35" selection-end-column="72" />
         </state>
       </provider>
     </entry>

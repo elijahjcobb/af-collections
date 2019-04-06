@@ -4,11 +4,14 @@
 		"target": "es6",
 		"sourceMap": false,
 		"noEmitOnError": false,
-		"outDir": "build",
+		"moduleResolution": "node",
+		"outDir": "dist",
 		"declaration": true,
-		"declarationDir": "lib"
 	},
 	"exclude": [
 		"node_modules"
+	],
+	"include": [
+		"ts/**/*.ts"
 	]
 }
