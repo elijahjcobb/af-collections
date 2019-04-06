@@ -1,6 +1,6 @@
 {
-  "name": "af-collections",
-  "version": "1.0.10",
+  "name": "@elijahjcobb/collections",
+  "version": "0.0.5",
   "description": "A collection of generic structures written in TypeScript.",
   "main": "dist/index",
   "types": "dist/index",
@@ -13,7 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elijahjcobb/af-collections.git"
+    "url": "git+https://github.com/elijahjcobb/collections.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "map",
@@ -36,19 +39,18 @@
   "author": "Elijah Cobb <elijah@elijahcobb.com> (https://elijahcobb.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elijahjcobb/af-collections/issues"
+    "url": "https://github.com/elijahjcobb/collections/issues"
   },
-  "homepage": "https://github.com/elijahjcobb/af-collections#readme",
+  "homepage": "https://github.com/elijahjcobb/collections#readme",
   "dependencies": {
-    "@types/node": "^11.13.0",
-    "tslint": "^5.15.0",
-    "typescript": "^3.4.2",
-    "af-error": "*"
+    "@elijahjcobb/error": "*",
+    "@types/node": "*",
+    "tslint": "*",
+    "typescript": "*"
   },
   "devDependencies": {
-    "@types/node": "^11.13.0",
-    "typescript": "^3.4.2",
-    "af-error": "*"
+    "@types/node": "*",
+    "typescript": "*"
   },
   "files": [
     "dist"
