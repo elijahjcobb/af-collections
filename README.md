@@ -4,15 +4,15 @@ AFCollections is a set of modules that communicate together to replicate and gro
 ## Included Structures 
 | Class | Description |
 | --- | --- |
-| [`AFArray`](https://github.com/elijahjcobb/af-collections/blob/master/ts/array/AFArray.ts) | An immutable generic class representing a list of values. |
-| [`AFArrayList`](https://github.com/elijahjcobb/af-collections/blob/master/ts/array/AFArrayList.ts) | A mutable generic class representing a list of values. |
-| [`AFDictionary`](https://github.com/elijahjcobb/af-collections/blob/master/ts/map/AFDictionary.ts) | An immutable generic class representing a group of key value pairs. |
-| `AFMap` | A mutable generic class representing a group of key value pairs. | |
-| `AFIterator` | A generic iterator to iterate through provided values. |
-| `AFCSV` | A helper class to generate a `CSV` endoded `string` from an `AFArray` instance. |
-| `AFEnum` | A helper class to generate both `AFArray` and `AFArrayList` instances from a typescript `enum `. |
-| `AFQueue` | A mutable generic class representing a queue. |
-| `AFStack` | A mutable generic class representing a stack. |
+| [`AFArray`](https://github.com/elijahjcobb/af-collections/blob/master/lib/array/AFArray.d.ts) | An immutable generic class representing a list of values. |
+| [`AFArrayList`](https://github.com/elijahjcobb/af-collections/blob/master/lib/array/AFArrayList.d.ts) | A mutable generic class representing a list of values. |
+| [`AFDictionary`](https://github.com/elijahjcobb/af-collections/blob/master/lib/map/AFDictionary.d.ts) | An immutable generic class representing a group of key value pairs. |
+| [`AFMap`](https://github.com/elijahjcobb/af-collections/blob/master/lib/map/AFMap.d.ts) | A mutable generic class representing a group of key value pairs. | |
+| [`AFIterator`](https://github.com/elijahjcobb/af-collections/blob/master/lib/AFIterator.d.ts) | A generic iterator to iterate through provided values. |
+| [`AFCSV`](https://github.com/elijahjcobb/af-collections/blob/master/lib/AFCSV.d.ts) | A helper class to generate a `CSV` endoded `string` from an `AFArray` instance. |
+| [`AFEnum`](https://github.com/elijahjcobb/af-collections/blob/master/lib/AFEnum.d.ts) | A helper class to generate both `AFArray` and `AFArrayList` instances from a typescript `enum `. |
+| [`AFQueue`](https://github.com/elijahjcobb/af-collections/blob/master/lib/AFQueue.d.ts) | A mutable generic class representing a queue. |
+| [`AFStack`](https://github.com/elijahjcobb/af-collections/blob/master/lib/AFStack.d.ts) | A mutable generic class representing a stack. |
 
 ## Accessing Structures
 All the structures are packages onto `AFCollections`. Just import it like normal and you can use any structure of the package.
@@ -40,9 +40,11 @@ Most classes throw errors when you do something that is a "no-no". They are just
 ## Full Documentation
 
 ### Source Code
-I have completely documented everything so feel free to poke around the actual code. In the table at the top each class links directly to it's `TypeScript` source code on GitHub.
+If you want to poke around the source code for fun it is all located in the [`ts` directory](https://github.com/elijahjcobb/af-collections/tree/master/ts). 
 
 ### TypeScript Declaration Files
+I have completely documented everything. In the table at the top each link on class each names directs to the declaration file for the class on GitHub.
+
 You can also use `npm install @types/af-collections` to get all my declaration files.
 ## Bugs
 If you find any bugs please create an issue on [GitHub](https://github.com/elijahjcobb/af-collections/issues) or if you are old fashioned email me at [elijah@elijahcobb.com](mailto:elijah@elijahcobb.com).
