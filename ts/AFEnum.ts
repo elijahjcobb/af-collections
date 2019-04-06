@@ -6,8 +6,8 @@
  *
  */
 
-import { AFArrayList } from "./AFArrayList";
-import { AFArray } from "./AFArray";
+import { AFArrayList } from "./array/AFArrayList";
+import { AFArray } from "./array/AFArray";
 
 export class AFEnum {
 
@@ -21,7 +21,7 @@ export class AFEnum {
 		const StringIsNumber: any = (value2: any): any => isNaN(Number(value2)) === false;
 		let values: string[] = Object.keys(value).filter(StringIsNumber).map((key: any) => value[key]);
 
-		return AFArrayList.initWithObjects<string>(values).toAFArray();
+		return AFArray.initFromNativeArray(values);
 
 	}
 
@@ -35,7 +35,7 @@ export class AFEnum {
 		const StringIsNumber: any = (value2: any): any => isNaN(Number(value2)) === false;
 		let values: string[] = Object.keys(value).filter(StringIsNumber).map((key: any) => value[key]);
 
-		return AFArrayList.initWithObjects<string>(values);
+		return AFArrayList.initFromNativeArray(values);
 
 	}
 

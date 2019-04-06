@@ -7,5 +7,3 @@
  *
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-const AFCollections = require("./index");
-let map = new AFCollections.Map();

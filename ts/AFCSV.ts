@@ -7,16 +7,26 @@
  */
 
 import { AFObject } from "./AFObject";
-import { AFDictionary } from "./AFDictionary";
-import { AFArray } from "./AFArray";
-import { AFArrayList } from "./AFArrayList";
+import { AFDictionary } from "./map/AFDictionary";
+import { AFArray } from "./array/AFArray";
+import { AFArrayList } from "./array/AFArrayList";
 
+/**
+ * Allowed types for AFCSV.
+ */
 export type AFCSVTypes = string | number | boolean;
 
+/**
+ * A helper class to convert an AFArray instance into a CSV file.
+ */
 export class AFCSV extends AFObject {
 
 	private readonly array: AFArray<AFDictionary<string, AFCSVTypes>>;
 
+	/**
+	 * The constructor to make new instances of a AFCSV.
+	 * @param {AFArray<AFDictionary<string, AFCSVTypes>>} array An AFArray instance that contains AFDictionary instances.
+	 */
 	public constructor(array: AFArray<AFDictionary<string, AFCSVTypes>>) {
 
 		super();
@@ -25,13 +35,17 @@ export class AFCSV extends AFObject {
 
 	}
 
+	/**
+	 * Compile a string that is a CSV representation of the internal data.
+	 * @return {string} A CSV string representation of internal data.
+	 */
 	public compile(): string {
 
 		let object: AFDictionary<string, AFCSVTypes> = this.array.get(0);
 		if (!object) throw "";
 		let keys: AFArray<string> = object.keys();
 
-		let csv: string = keys.join(",");
+		let csv: string = keys.toString(",");
 
 		this.array.forEach((object: AFDictionary<string, AFCSVTypes>) => {
 
@@ -48,7 +62,7 @@ export class AFCSV extends AFObject {
 
 			});
 
-			csv += "\n" + values.join(",");
+			csv += "\n" + values.toString(",");
 
 		});
 

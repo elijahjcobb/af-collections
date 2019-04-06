@@ -15,13 +15,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const AFArrayList_1 = require("./AFArrayList");
-const AFObject_1 = require("./AFObject");
-const AFIterator_1 = require("./AFIterator");
+const AFObject_1 = require("../AFObject");
+const AFArray_1 = require("./AFArray");
+const AFIterator_1 = require("../AFIterator");
 /**
- * A generic immutable implementation of an array.
+ * A generic mutable implementation of an array.
  */
-class AFArray extends AFObject_1.AFObject {
+class AFArrayList extends AFObject_1.AFObject {
     /**
      * The default constructor will only create an instance. Use the static method helpers to create new instances.
      */
@@ -91,7 +91,7 @@ class AFArray extends AFObject_1.AFObject {
      * @return {AFIterator<T>} A new AFIterator.
      */
     toIterator() {
-        return AFIterator_1.AFIterator.initWithArray(this);
+        return AFIterator_1.AFIterator.initWithArrayList(this);
     }
     /**
      * Convert this instance to a string using the provided separator.
@@ -113,44 +113,80 @@ class AFArray extends AFObject_1.AFObject {
      * @return {string} This instance as a AFArray representation.
      */
     toAFArray() {
-        return this;
+        return AFArray_1.AFArray.initFromNativeArray(this.array);
     }
     /**
      * Convert this instance to a AFArrayList.
      * @return {string} This instance as a AFArrayList representation.
      */
     toAFArrayList() {
-        return AFArrayList_1.AFArrayList.initFromArray(this);
+        return this;
     }
     /**
-     * Create a new AFArray instance from specific values.
+     * Insert a value at a specific index.
+     * @param {T} value The value to be inserted.
+     * @param {number} index The index the value should be inserted at.
+     */
+    insert(value, index) {
+        this.array.splice(0, 0, value);
+    }
+    /**
+     * Add a value at the end of this instance.
+     * @param {T} value The value to be added.
+     */
+    add(value) {
+        this.array.push(value);
+    }
+    /**
+     * Add values at the end of this instance.
+     * @param {T} values The values to be added.
+     */
+    addAll(...values) {
+        this.array.push(...values);
+    }
+    /**
+     * Remove a value by its index.
+     * @param {number} index The index that should be removed.
+     */
+    remove(index) {
+        this.array.splice(index, 1);
+    }
+    /**
+     * Remove a value.
+     * @param {T} value The value to be removed.
+     */
+    removeValue(value) {
+        this.remove(this.indexOf(value));
+    }
+    /**
+     * Create a new AFArrayList instance from specific values.
      * @param {T} values The values to add to the new instance.
-     * @return {AFArray<T>} A new AFArray instance.
+     * @return {AFArrayList<T>} A new AFArrayList instance.
      */
     static initWithValues(...values) {
-        let afArray = new AFArray();
-        afArray.array = values;
-        return afArray;
+        let afArrayList = new AFArrayList();
+        afArrayList.array = values;
+        return afArrayList;
     }
     /**
-     * Create a new AFArray from a native JavaScript array.
+     * Create a new AFArrayList from a native JavaScript array.
      * @param {T[]} nativeArray The array of values to add to this instance.
-     * @return {AFArray<T>} A new AFArray instance.
+     * @return {AFArrayList<T>} A new AFArrayList instance.
      */
     static initFromNativeArray(nativeArray) {
-        let afArray = new AFArray();
-        afArray.array = nativeArray;
-        return afArray;
+        let afArrayList = new AFArrayList();
+        afArrayList.array = nativeArray;
+        return afArrayList;
     }
     /**
-     * Create a new AFArray from a AFArrayList.
-     * @param {AFArrayList<T>} arrayList The AFArrayList whose values should be added to this instance.
-     * @return {AFArray<T>} A new AFArray instance.
+     * Create a new AFArrayList from a AFArray.
+     * @param {AFArray<T>} array The AFArray whose values should be added to this instance.
+     * @return {AFArrayList<T>} A new AFArrayList instance.
      */
-    static initFromArrayList(arrayList) {
-        let afArray = new AFArray();
-        afArray.array = arrayList.toNativeArray();
-        return afArray;
+    static initFromArray(array) {
+        let afArrayList = new AFArrayList();
+        afArrayList.array = array.toNativeArray();
+        return afArrayList;
     }
 }
-exports.AFArray = AFArray;
+exports.AFArrayList = AFArrayList;

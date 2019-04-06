@@ -9,7 +9,7 @@ import { AFArrayList } from "./AFArrayList";
 import { AFObject } from "./AFObject";
 export declare class AFArray<T> extends AFObject {
     private array;
-    constructor(array: AFArrayList<T>);
+    constructor(array: AFArrayList<T> | number);
     toList(): AFArrayList<T>;
     /**
      * Check if the list contains no elements.

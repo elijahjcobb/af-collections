@@ -15,10 +15,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const AFObject_1 = require("./AFObject");
-const AFArray_1 = require("./array/AFArray");
+const AFObject_1 = require("../AFObject");
+const AFArray_1 = require("../array/AFArray");
 const AFMap_1 = require("./AFMap");
-const AFIterator_1 = require("./AFIterator");
+const AFIterator_1 = require("../AFIterator");
 /**
  * A immutable generic implementation of a native javascript object.
  */

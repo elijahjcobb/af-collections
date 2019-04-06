@@ -1,6 +1,6 @@
 {
   "name": "af-collections",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A set of useful typesafe collections.",
   "main": "build/index.js",
   "types": "lib",
@@ -29,5 +29,8 @@
     "tslint": "^5.15.0",
     "typescript": "^3.4.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib"
+  }
 }

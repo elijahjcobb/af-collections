@@ -16,8 +16,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const AFArrayList_1 = require("./AFArrayList");
-const AFObject_1 = require("./AFObject");
-const AFIterator_1 = require("./AFIterator");
+const AFObject_1 = require("../AFObject");
+const AFIterator_1 = require("../AFIterator");
 /**
  * A generic immutable implementation of an array.
  */
