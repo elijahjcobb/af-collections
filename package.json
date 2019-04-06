@@ -1,0 +1,33 @@
+{
+  "name": "af-collections",
+  "version": "1.0.1",
+  "description": "A set of useful typesafe collections.",
+  "main": "build/index.js",
+  "types": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijahjcobb/af-collections.git"
+  },
+  "keywords": [
+    "collection",
+    "array",
+    "map",
+    "linked",
+    "list"
+  ],
+  "author": "Elijah Cobb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elijahjcobb/af-collections/issues"
+  },
+  "homepage": "https://github.com/elijahjcobb/af-collections#readme",
+  "dependencies": {
+    "@types/node": "^11.13.0",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.2"
+  },
+  "devDependencies": {}
+}
