@@ -256,6 +256,8 @@ class ECMap extends ECPrototype_1.ECPrototype {
      * @return {ECMap<string, V>} A new ECDictionary instance.
      */
     static initWithNativeObject(nativeObject) {
+        if (!nativeObject)
+            return new ECMap();
         let map = new ECMap();
         let keys = Object.keys(nativeObject);
         for (let i = 0; i < keys.length; i++) {
@@ -271,6 +273,8 @@ class ECMap extends ECPrototype_1.ECPrototype {
      * @return {ECMap<K, V>} A new ECMap instance.
      */
     static initWithNativeMap(map) {
+        if (!map)
+            return new ECMap();
         let afMap = new ECMap();
         afMap.map = map;
         return afMap;

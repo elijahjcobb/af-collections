@@ -338,6 +338,8 @@ export class ECMap<K, V> extends ECPrototype implements ECMappable<K, V> {
 	 */
 	public static initWithNativeObject<V>(nativeObject: object): ECMap<string, V> {
 
+		if (!nativeObject) return new ECMap<string, V>();
+
 		let map: ECMap<string, V> = new ECMap<string, V>();
 		let keys: string[] = Object.keys(nativeObject);
 
@@ -360,6 +362,8 @@ export class ECMap<K, V> extends ECPrototype implements ECMappable<K, V> {
 	 * @return {ECMap<K, V>} A new ECMap instance.
 	 */
 	public static initWithNativeMap<K, V>(map: Map<K, V>): ECMap<K, V> {
+
+		if (!map) return new ECMap<K, V>();
 
 		let afMap: ECMap<K, V> = new ECMap<K, V>();
 		afMap.map = map;
