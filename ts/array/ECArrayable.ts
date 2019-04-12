@@ -100,12 +100,12 @@ export interface ECArrayable<T> {
 	 * Convert this instance to a ECArray.
 	 * @return {string} This instance as a ECArray representation.
 	 */
-	toAFArray(): ECArray<T>;
+	toArray(): ECArray<T>;
 
 	/**
 	 * Convert this instance to a ECArrayList.
 	 * @return {string} This instance as a ECArrayList representation.
 	 */
-	toAFArrayList(): ECArrayList<T>;
+	toArrayList(): ECArrayList<T>;
 
 }

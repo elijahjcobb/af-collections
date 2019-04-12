@@ -3,18 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="cae3f1d7-1ee3-4121-82cc-156d06b27d4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/map/ECMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/map/ECMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/esparse" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/esvalidate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/js-yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/tsc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/tsc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/tslint" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/tslint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/tsserver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/tsserver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/array/ECArray.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/array/ECArray.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/array/ECArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/array/ECArray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/array/ECArrayList.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/array/ECArrayList.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/array/ECArrayList.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/array/ECArrayList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/array/ECArrayable.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/array/ECArrayable.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/map/ECMap.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/map/ECMap.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/array/ECArray.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/array/ECArray.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/array/ECArrayList.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/array/ECArrayList.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/array/ECArrayable.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/array/ECArrayable.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,13 +25,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="690">
-                <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/ts/array/ECArrayList.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="237" selection-start-line="237" selection-end-line="237" />
             </state>
           </provider>
         </entry>
@@ -91,9 +85,6 @@
         <option value="$PROJECT_DIR$/ts/map/AFMap.ts" />
         <option value="$PROJECT_DIR$/ts/array/AFArrayList.ts" />
         <option value="$PROJECT_DIR$/ts/o.ts" />
-        <option value="$PROJECT_DIR$/ts/array/ECArray.ts" />
-        <option value="$PROJECT_DIR$/ts/array/ECArrayable.ts" />
-        <option value="$PROJECT_DIR$/ts/array/ECArrayList.ts" />
         <option value="$PROJECT_DIR$/ts/map/ECMappable.ts" />
         <option value="$PROJECT_DIR$/ts/test.ts" />
         <option value="$PROJECT_DIR$/ts/index.ts" />
@@ -106,15 +97,18 @@
         <option value="$PROJECT_DIR$/ts/ECIterator.ts" />
         <option value="$PROJECT_DIR$/ts/map/ECDictionary.ts" />
         <option value="$PROJECT_DIR$/ts/map/ECMap.ts" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/ts/array/ECArray.ts" />
+        <option value="$PROJECT_DIR$/ts/array/ECArrayable.ts" />
+        <option value="$PROJECT_DIR$/ts/array/ECArrayList.ts" />
       </list>
     </option>
   </component>
   <component name="NamedScopeManager">
     <scope name="TS" pattern="file[collections]:ts//*" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="949" />
@@ -127,34 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'TS'; set:file[af-collections]:ts//*; class com.intellij.psi.search.scope.packageSet.NamedScope">
-          <expand>
-            <path>
-              <item name="af-collections" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Dropbox/Projects/git/af-collections" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="af-collections" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Dropbox/Projects/git/af-collections" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="af-collections" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Dropbox/Projects/git/af-collections" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="array" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="af-collections" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="~/Dropbox/Projects/git/af-collections" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="ts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="map" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +144,34 @@
               <item name="collections" type="462c0819:PsiDirectoryNode" />
               <item name="ts" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'TS'; set:file[af-collections]:ts//*; class com.intellij.psi.search.scope.packageSet.NamedScope">
+          <expand>
+            <path>
+              <item name="af-collections" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Dropbox/Projects/git/af-collections" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="af-collections" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Dropbox/Projects/git/af-collections" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="af-collections" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Dropbox/Projects/git/af-collections" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="array" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="af-collections" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Dropbox/Projects/git/af-collections" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="ts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="map" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -218,21 +212,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.af-collections">
-    <configuration name="af-collections" type="NodeJSConfigurationType" path-to-js-file="dist/index.js" working-dir="$PROJECT_DIR$">
-      <method v="2">
-        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
-      </method>
+  <component name="RunManager">
+    <configuration name="compile" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="compile" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
     </configuration>
-    <configuration name="test" type="NodeJSConfigurationType" path-to-js-file="build/test.js" working-dir="$PROJECT_DIR$">
-      <method v="2">
-        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Node.js.af-collections" />
-      <item itemvalue="Node.js.test" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -266,11 +256,15 @@
       <workItem from="1554700071848" duration="92000" />
       <workItem from="1554706338407" duration="5000" />
       <workItem from="1554787910061" duration="79000" />
+      <workItem from="1554840759223" duration="27000" />
+      <workItem from="1554842275311" duration="22000" />
+      <workItem from="1554861646687" duration="105000" />
+      <workItem from="1555048448948" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18312000" />
+    <option name="totallyTimeSpent" value="18548000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,9 +276,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31196582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32661784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -299,7 +294,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.327551" />
       <window_info anchor="bottom" id="Statistic" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2755102" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2755102" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -343,43 +338,6 @@
     <entry file="file://$PROJECT_DIR$/docs/index.html" />
     <entry file="file://$PROJECT_DIR$/package-lock.json" />
     <entry file="file://$PROJECT_DIR$/ts/o.ts" />
-    <entry file="file://$PROJECT_DIR$/ts/array/ECArray.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#81#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts/array/ECArrayable.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#80#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts/array/ECArrayList.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#81#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts/map/ECMappable.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ts/test.ts" />
     <entry file="file://$PROJECT_DIR$/ts/ECStack.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -435,13 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ts/map/ECDictionary.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="279" column="257" selection-start-line="279" selection-start-column="257" selection-end-line="279" selection-end-column="257" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ts/ECPrototype.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -458,13 +409,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tslint.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ts/map/ECMap.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,6 +431,48 @@
             <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts/array/ECArray.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="154" column="13" selection-start-line="154" selection-start-column="13" selection-end-line="154" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts/array/ECArrayable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="108" column="6" selection-start-line="108" selection-start-column="6" selection-end-line="108" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts/map/ECMappable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts/map/ECDictionary.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="279" column="257" selection-start-line="279" selection-start-column="257" selection-end-line="279" selection-end-column="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts/array/ECArrayList.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
         </state>
       </provider>
     </entry>

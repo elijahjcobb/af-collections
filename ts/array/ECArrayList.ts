@@ -152,7 +152,7 @@ export class ECArrayList<T> extends ECPrototype implements ECArrayable<T> {
 	 * Convert this instance to a ECArray.
 	 * @return {string} This instance as a ECArray representation.
 	 */
-	public toAFArray(): ECArray<T> {
+	public toArray(): ECArray<T> {
 
 		return ECArray.initFromNativeArray(this.array);
 
@@ -162,7 +162,7 @@ export class ECArrayList<T> extends ECPrototype implements ECArrayable<T> {
 	 * Convert this instance to a ECArrayList.
 	 * @return {string} This instance as a ECArrayList representation.
 	 */
-	public toAFArrayList(): ECArrayList<T> {
+	public toArrayList(): ECArrayList<T> {
 
 		return this;
 
@@ -225,6 +225,16 @@ export class ECArrayList<T> extends ECPrototype implements ECArrayable<T> {
 	public removeValue(value: T): void {
 
 		this.remove(this.indexOf(value));
+
+	}
+
+	/**
+	 * Merge with another list instance.
+	 * @param {ECArrayList<T>} otherList Another list of the same type.
+	 */
+	public merge(otherList: ECArrayList<T>): void {
+
+		otherList.forEach((value: T) => this.add(value));
 
 	}
 

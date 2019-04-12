@@ -152,7 +152,7 @@ export class ECArray<T> extends ECPrototype implements ECArrayable<T> {
 	 * Convert this instance to a ECArray.
 	 * @return {string} This instance as a ECArray representation.
 	 */
-	public toAFArray(): ECArray<T> {
+	public toArray(): ECArray<T> {
 
 		return this;
 
@@ -162,7 +162,7 @@ export class ECArray<T> extends ECPrototype implements ECArrayable<T> {
 	 * Convert this instance to a ECArrayList.
 	 * @return {string} This instance as a ECArrayList representation.
 	 */
-	public toAFArrayList(): ECArrayList<T> {
+	public toArrayList(): ECArrayList<T> {
 
 		return ECArrayList.initFromArray(this);
 
